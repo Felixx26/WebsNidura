@@ -17,14 +17,21 @@ namespace WebsNidura.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sobre nosotros";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Página de contacto";
+
+            return View();
+        }
+
+        public IActionResult Services()
+        {
+            ViewData["Message"] = "Nuestros servicios.";
 
             return View();
         }
